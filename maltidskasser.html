@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link til eksterne stylesheets, Google fonts, Google icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Doodle+Shadow&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Nippon</title>
+  </head>
+  <body>
+    <header>
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Logo" />
+        </a>
+      </div>
+      <!-- Navigationsbar -->
+      <div>
+        <ul class="navbar">
+          <li>
+            <a href="maltidskasser.html" class="home-active">Måltidskasser</a>
+            <ul class="submenu">
+              <li><a href="fejlside.html">Nemt & hurtigt</a></li>
+              <li><a href="fejlside.html">Vegetarisk & grønt</a></li>
+              <li><a href="fejlside.html">Fisk & skaldyr</a></li>
+              <li><a href="fejlside.html">Stærkt & krydret</a></li>
+              <li><a href="familievenligt.html">Familievenligt</a></li>
+              <li><a href="fejlside.html">Proteinrigt</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="voresretter.html">Vores retter</a>
+            <ul class="submenu">
+              <li><a href="fejlside.html">Kvalitet</a></li>
+              <li><a href="fejlside.html">Guide</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="dagligvarer.html">Dagligvarer</a>
+            <ul class="submenu">
+              <li><a href="fejlside.html">Tilbud</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="omos.html">Om os</a>
+            <ul class="submenu">
+              <li><a href="fejlside.html">Kundeservice</a></li>
+              <li><a href="fejlside.html">Levering</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Profil menu -->
+      <div class="profil">
+        <div class="info">
+          <span class="material-symbols-outlined">account_circle</span>
+          <p>Hanne</p>
+          <span class="material-symbols-outlined">arrow_drop_down</span>
+          <span class="material-symbols-outlined"> shopping_bag </span>
+        </div>
+        <div class="dropdown-content">
+          <div class="dropdown-options">
+            <a href="profil.html">Profil</a>
+            <a href="#">Min madplan</a>
+            <a href="logud.html">Log ud</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main indhold -->
+    <main>
+      <div class="tekst">
+        <h1>Design din egen måltidskasse</h1>
+        <p>Vælg hvilke kategorier, du vil opbygge din måltidskasse ud fra</p>
+      </div>
+      <div class="flex-container-kasse">
+        <div>Familievenligt</div>
+        <div>Nemt og hurtigt</div>
+        <div>Vegetarisk og grønt</div>
+      </div>
+      <div class="flex-container-kasse">
+        <div>Stærkt og krydret</div>
+        <div>Proteinrigt</div>
+        <div>Fisk og skaldyr</div>
+      </div>
+      <div class="tekst-velg">
+        <p>Vælg hvilke japanske retter, du ønsker i din måltidskasse:</p>
+      </div>
+
+      <div class="container-firkant">
+        <div class="container-et">
+          <div>
+            <img src="img/ret1.png" alt="Grønsagsramen med champignon" />
+            <button class="maltid-knap">
+              <h1>Grøntsagsramen med champignon</h1>
+              <h2>Læs mere</h2>
+            </button>
+          </div>
+          <div>
+            <img src="img/ret2.png" alt="Ramen med rejer" />
+            <button class="maltid-knap">
+              <h1>Ramen med rejer</h1>
+              <h2>Læs mere</h2>
+            </button>
+          </div>
+          <div>
+            <img src="img/ret3.png" alt="Hjemmelavet sushi af laks" />
+            <button class="maltid-knap">
+              <h1>Hjemmelavet sushi med laks</h1>
+              <h2>Læs mere</h2>
+            </button>
+          </div>
+        </div>
+        <div class="container-to">
+          <div>
+            <img src="img/ret4.png" alt="Teriyaki tun med stegte grøntsager" />
+            <button class="maltid-knap">
+              <h1>Teriyaki tun med stegte grøntsager</h1>
+              <h2>Læs mere</h2>
+            </button>
+          </div>
+          <div class="ret5">
+            <img src="img/ret5.png" alt="Grøntsags dumplings" />
+            <button class="maltid-knap">
+              <h1>Grøntsags dumplings</h1>
+              <h2>Læs mere</h2>
+            </button>
+          </div>
+          <div class="ret6">
+            <img src="img/ret6.png" alt="Ris med teriyakisovs" />
+            <button class="maltid-knap">
+              <h1>Ris med teriyakisovs</h1>
+              <h2>Læs mere</h2>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="alternativt">
+        <p>
+          Alternativt kan du også vælge en af vores skræddersyet
+          måltidskasser,<br />
+          der passer perfekt til dine behov:
+        </p>
+        <div class="container-cirkler">
+          <div class="container-tre">
+            <div>
+              <img src="img/Familiemiddag.png" alt="Familievenligt" />
+              <button class="maltidskasser-knap">Familievenligt</button>
+            </div>
+            <div>
+              <img src="img/Nemtoghurtigt.png" alt="Nemt og hurtigt" />
+              <button class="maltidskasser-knap">Nemt & hurtigt</button>
+            </div>
+            <div>
+              <img src="img//vegetariskoggrønt.png" alt="vegetariskoggront" />
+              <button class="maltidskasser-knap">Vegetarisk & grønt</button>
+            </div>
+          </div>
+          <div class="container-fire">
+            <div>
+              <img src="img/stærktogkrydret.png" alt="Sterkt & krydret" />
+              <button class="maltidskasser-knap">Stærkt & krydret</button>
+            </div>
+            <div class="ret5">
+              <img src="img/Proteinrigt.png" alt="Proteinrigt" />
+              <button class="maltidskasser-knap">Proteinrigt</button>
+            </div>
+            <div class="ret6">
+              <img src="img/Fiskogskalddyr.png" alt="Fisk & skaldyr" />
+              <button class="maltidskasser-knap">Fisk & skaldyr</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="button1" type="button" id="maltidskasser-knap-neste">
+        Næste
+      </button>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-row">
+        <div class="kontakt">
+          <h4>Kontakt</h4>
+          <p>
+            <a
+              href="https://maps.google.com/maps?q=Skanderborgvej+26,8000+Aarhus+C"
+              target="_blank"
+              >Skanderborgvej 26, <br />8000 Aarhus C</a
+            >
+          </p>
+          <p><a href="tel:+45000000">Tlf +45 00 00 00</a></p>
+          <p>
+            <a href="mailto:Kundeservice@nippon.dk"
+              >E-mail: Kundeservice@nippon.dk</a
+            >
+          </p>
+        </div>
+        <div class="betingelser">
+          <h4>Vilkårer og betingelser</h4>
+          <p><a href="link1.html">Cookiepolitik - Ændrer dit samtykke</a></p>
+          <p><a href="link2.html">Handelsbetingelser</a></p>
+          <p><a href="link3.html">Persondatabetingelser</a></p>
+          <p><a href="link4.html">Tryghedsgaranti</a></p>
+        </div>
+        <div class="app">
+          <h4>Hent vores app</h4>
+          <div class="app-links">
+            <img src="img/qrkode.png" alt="QR-kode" />
+            <img class="hent" src="img/hentapp.png" alt="Hent appen" />
+          </div>
+        </div>
+      </div>
+      <div class="footer-to">
+        <div class="betaling">
+          <img src="img/visa.png" alt="visa" />
+          <img src="img/mastercard.png" alt="mastercard" />
+        </div>
+        <div class="sociale-medier">
+          <img src="img/facebook.png" alt="Facebook" />
+          <img src="img/instagram.png" alt="Instagram" />
+          <img src="img/tiktok.png" alt="Tik tok" />
+        </div>
+      </div>
+      <div class="logo-hvid">
+        <img src="img/logohvid.png" alt="logo-hvid" />
+      </div>
+    </footer>
+  </body>
+</html>
